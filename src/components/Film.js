@@ -4,7 +4,7 @@ import '../styles/Film.css'
 function Film({choixFilm,choixFilmUpdate}){
     var filmDisplay = {}
     dataFilms.forEach((film, index) =>{
-        if(film.id == choixFilm){
+        if(film.id === choixFilm){
             filmDisplay = film;
         }
     })
