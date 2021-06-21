@@ -10,7 +10,7 @@ function Catalog({choixFilm,choixFilmUpdate}){
                     <div onClick={()=>choixFilmUpdate(film.id)}>
                         <img src={film.pochette} alt={film.nom}/>
                         <p>{film.nom}</p>
-                        <p>Durée : {film.duree} minutes</p>
+                        <p>Durée : {film.duree>60 ? Math.round(((film.duree/60) * 100)/100) + ' heures' : film.duree + ' minutes' }</p>
                 </div>
                 ))}
             </div>

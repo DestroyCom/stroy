@@ -5,8 +5,8 @@ section{
 }
 
 img{
-    max-height: 30vh;
     max-width: 15vw;
+    height: 25vh;
 }
 
 section>h2{
@@ -18,6 +18,15 @@ section>h2{
     justify-content: flex-start;
     flex-wrap: wrap;
     cursor: pointer;
+}
+
+.displayFilms>div>p{
+    margin: 2%;
+    min-width: 200px;
+}
+
+.displayFilms>div>img{
+    margin-left: 5%;
 }
 
 .displayFilms>div{
