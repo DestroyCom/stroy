@@ -1,0 +1,18 @@
+video{
+    max-height: 75vh;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filmPlayer{
+    margin: 2%;
+}
+
+.filmPlayer>h2{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    margin-left:5%;
+    margin-bottom: 2%;
+}

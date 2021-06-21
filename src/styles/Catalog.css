@@ -1,0 +1,32 @@
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+img{
+    max-height: 30vh;
+    max-width: 15vw;
+}
+
+section>h2{
+    font-size: 20px;
+}
+
+.displayFilms{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.displayFilms>div{
+    margin: 2%;
+    transition: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 0.05s;
+}
+
+.displayFilms>div:hover{
+    opacity: 0.5;
+}
