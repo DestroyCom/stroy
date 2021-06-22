@@ -1,6 +1,8 @@
 # Stroy - A streaming website on REACT
 In order to train myself in REACT.js, I coded "Stroy", a streaming website based in react.
 
+Warning : In its first version the website is not compatible with phones.
+
 ## Why this project and why this name ?
 This project was launched so that I could deepen my knowledge of react.js
 
