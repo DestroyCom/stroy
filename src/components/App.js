@@ -8,7 +8,6 @@ import {useState} from 'react'
 function App() {
   const [choixFilm, choixFilmUpdate] = useState('')
   const [displayFilm, displayFilmUpdate] = useState('')
-  console.log(displayFilm)
   return (
     <>
       <Header choixFilm={choixFilm} choixFilmUpdate={choixFilmUpdate} displayFilm={displayFilm} displayFilmUpdate={displayFilmUpdate} />

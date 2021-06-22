@@ -26,7 +26,16 @@ header>h1:hover{
     opacity: 0.5;
 }
 
-header>input{
+header>div{
+    background-color: #101010;
+    margin: 5px;
+}
+
+header>div>i{
+    padding-top: 5%;
+}
+
+header>div>input{
     background-color: white;
     height: 50%;
     border-radius: 25px;
