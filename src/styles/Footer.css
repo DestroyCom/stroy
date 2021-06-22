@@ -37,3 +37,32 @@ footer>div:nth-child(2){
 footer>div:nth-child(2)>a{
     margin: 30%;
 }
+
+@media only screen and (max-width: 1025px) {
+    footer{
+        width: 100%;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    footer>div:nth-child(1){
+        margin-top: 0;
+        margin-right: 0;
+    }
+    
+    footer>div:nth-child(3){
+        margin-top: 0;
+        margin-left: 0;
+        text-align: right;
+    }
+
+    footer>div:nth-child(3) p{
+        padding: 5px;
+    }
+
+    footer>div:nth-child(1)>p, footer>div:nth-child(1)>h2{
+        max-width: 60vw;
+    }
+}

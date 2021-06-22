@@ -41,3 +41,15 @@ video{
     margin-bottom: 25px;
 }
 
+
+@media only screen and (max-width: 1025px) {
+    .filmPlayer>div:nth-child(2n){
+        width: 90vw;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .filmPlayer{
+        min-height: 85vh;
+    }
+}

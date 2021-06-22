@@ -26,10 +26,6 @@ section>h2{
     min-width: 200px;
 }
 
-.displayFilms>div>img{
-    margin-left: 5%;
-}
-
 .displayFilms>div{
     margin: 2%;
     transition: opacity;
@@ -39,4 +35,24 @@ section>h2{
 
 .displayFilms>div:hover{
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 1025px) {
+    .displayFilms{
+        justify-content: center;
+    }
+
+    img{
+        max-width: 80vw;
+        height: 25vh;
+    }
+
+    .displayFilms>div>p{
+        text-align: center;
+    }
+    .displayFilms>div>img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

@@ -1,13 +1,15 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: white;
     background-color: #101010;
     height: 5vh;
+    width: 100%;
 }
 
-header>h1, header>input{
+header>h1, header>div>input{
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -40,4 +42,19 @@ header>div>input{
     height: 50%;
     border-radius: 25px;
     color: black;
+}
+
+
+@media only screen and (max-width: 1025px) {
+    header{
+        justify-content: space-around;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header>div>input{
+        margin-top: 3%;
+        width: 25vw;
+    }
 }
