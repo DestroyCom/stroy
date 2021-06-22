@@ -2,10 +2,6 @@ import '../styles/Catalog.css'
 import {dataFilms} from '../assets/datas/listFilm'
 
 function Catalog({choixFilm,choixFilmUpdate, displayFilm}){
-    let mots = 'discover';
-    if(mots.indexOf(displayFilm) > -1){
-        console.log("ui")
-    }
     return (
         <section>
             <h2>Les films :</h2>
