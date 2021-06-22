@@ -1,0 +1,39 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #101010;
+    height: 10vh;
+}
+
+footer h2, footer p, footer div, footer i, footer a{
+    background-color: #101010;
+}
+
+footer h2{
+    background-color: #101010;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer>div:nth-child(1){
+    margin-top: 3vh;
+    margin-right: 25%;
+}
+
+footer>div:nth-child(3){
+    margin-top: 3vh;
+    margin-left: 25%;
+}
+
+footer>div:nth-child(1)>p, footer>div:nth-child(1)>h2{
+    padding: 5px;
+}
+
+footer>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>div:nth-child(2)>a{
+    margin: 30%;
+}

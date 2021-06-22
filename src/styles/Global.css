@@ -5,3 +5,14 @@
     background-color: #171717;
     color: white;
 }
+
+a{
+    opacity: 1;
+    transition: opacity;
+    transition-duration: 0.5s;
+    transition-delay: 0.05s;
+}
+
+a:hover{
+    opacity: 0.5;
+}

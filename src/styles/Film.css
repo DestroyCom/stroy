@@ -16,3 +16,28 @@ video{
     margin-left:5%;
     margin-bottom: 2%;
 }
+
+.filmPlayer>div:nth-child(1n){
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+}
+
+.filmPlayer>div:nth-child(1n)>p{
+    padding: 10px;
+}
+
+.filmPlayer>div:nth-child(2n){
+    display: flex;
+    flex-direction: column;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    text-align: left;
+}
+
+.filmPlayer>div:nth-child(2n)>h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+

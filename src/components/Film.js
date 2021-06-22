@@ -15,6 +15,14 @@ function Film({choixFilm,choixFilmUpdate}){
             <video poster={filmDisplay.pochette} controls>
                 <source src={filmDisplay.url} type="video/mp4" />
             </video>
+            <div>
+                <p>{filmDisplay.duree} minutes</p>
+                <p>Année de sortie : {filmDisplay.dateDeSortie}</p>
+            </div>
+            <div>
+            <h3>Description :</h3>
+            <p>{filmDisplay.description}</p>
+            </div>
         </section>
     );
 }
