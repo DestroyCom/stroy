@@ -6,7 +6,7 @@ function Film({choixFilm,choixFilmUpdate}){
     let id = localStorage.getItem('film')
     var filmDisplay = {}
     dataFilms.forEach((film, index) =>{
-        if(film.id === parseInt(id)){
+        if(film.id === Number(id)){
             filmDisplay = film;
         }
     })
