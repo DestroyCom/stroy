@@ -2,7 +2,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: #101010;
-    height: 10vh;
+    height: 15vh;
 }
 
 footer h2, footer p, footer div, footer i, footer a{
@@ -16,12 +16,12 @@ footer h2{
 }
 
 footer>div:nth-child(1){
-    margin-top: 3vh;
+    margin-top: 1vh;
     margin-right: 25%;
 }
 
 footer>div:nth-child(3){
-    margin-top: 3vh;
+    margin-top: 2vh;
     margin-left: 25%;
 }
 
@@ -35,7 +35,7 @@ footer>div:nth-child(2){
 }
 
 footer>div:nth-child(2)>a{
-    margin: 30%;
+    margin: 15%;
 }
 
 @media only screen and (max-width: 1025px) {

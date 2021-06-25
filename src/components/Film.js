@@ -1,13 +1,19 @@
+import React, { useEffect } from 'react'
 import {dataFilms} from '../assets/datas/listFilm'
 import '../styles/Film.css'
 
 function Film({choixFilm,choixFilmUpdate}){
+    let id = localStorage.getItem('film')
     var filmDisplay = {}
     dataFilms.forEach((film, index) =>{
-        if(film.id === choixFilm){
+        if(film.id === parseInt(id)){
             filmDisplay = film;
         }
     })
+    
+    useEffect(()=>{
+        localStorage.removeItem('film')
+    },[])
 
     return (
         <section className='filmPlayer'>

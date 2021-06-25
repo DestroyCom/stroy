@@ -1,0 +1,53 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 75vh;
+}
+
+.login>div{
+    height: 50vh;
+}
+
+.login>div p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.login>div>h2 {
+    font-size: 30px;
+    margin: 5%;
+}
+
+.login>div input{
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+    max-width: 400px;
+    color: black;
+}
+
+.login>div>div:nth-child(2), .login>div>div:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.login>div a{
+    margin-top: 15%;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

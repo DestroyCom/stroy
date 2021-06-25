@@ -9,7 +9,7 @@ This project was launched so that I could deepen my knowledge of react.js
 This project is called Stroy, to echo the branding of some of my personal projects (like Stroybot - the twitch bot)
 
 ## What did I use ?
-I only used create-react-app which includes babel, webpack and ESlint and plyr.
+I only used create-react-app (which includes babel, webpack and ESlint), plyr and react-router.
 
 ## Where can I see the result ?
 A demo is available at https://stroystreaming.netlify.app/ 

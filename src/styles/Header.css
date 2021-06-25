@@ -1,20 +1,26 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding-top: 1%;
     padding-bottom: 1%;
     color: white;
     background-color: #101010;
-    height: 5vh;
+    height: 10vh;
     width: 100%;
 }
 
-header>h1, header>div>input{
+header>h1,
+header>div {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-header>h1{
+header>h1>a {
+    background-color: #101010;
+    text-decoration: none;
+}
+
+header>h1 {
     font-size: 30px;
     font-weight: bold;
     background-color: #101010;
@@ -22,40 +28,53 @@ header>h1{
     transition: opacity;
     transition-duration: 0.5s;
     transition-delay: 0.05s;
+    width: 25vw;
+    text-align: center;
 }
 
-header>h1:hover{
+header>h1:hover {
     opacity: 0.5;
 }
 
-header>div{
+header>div {
     background-color: #101010;
-    margin: 5px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
 }
 
-header>div>i{
+header>div a,
+header>div i {
     background-color: #101010;
-    padding-top: 5%;
 }
 
-header>div>input{
+header>div>input {
     background-color: white;
-    height: 50%;
+    height: 25%;
     border-radius: 25px;
     color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.logged {
+    display: none;
 }
 
 
 @media only screen and (max-width: 1025px) {
-    header{
-        justify-content: space-around;
+    header {
+        justify-content: space-between;
         width: 100%;
         margin: 0;
         padding: 0;
     }
 
-    header>div>input{
-        margin-top: 3%;
-        width: 25vw;
+    header>div>input {
+        width: 20vw;
+    }
+
+    header>div {
+        width: 40vw;
     }
 }
